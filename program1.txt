@@ -1,4 +1,4 @@
-/* Bubble sort code */
+/* Bubble sort code in c programming language*/
  
 #include <stdio.h>
  
