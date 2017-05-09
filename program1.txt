@@ -1,7 +1,9 @@
-/* Bubble sort code in c programming language*/
+
+/* Bubble sort code in c programming lanuage */
  
 #include <stdio.h>
-#include <stdlib.h>
+#include<process.h>
+
  
 int main()
 {
