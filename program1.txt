@@ -1,19 +1,19 @@
-/* Bubble sort code */
- 
+/* Bubble sort code in c programming language */
+Â 
 #include <stdio.h>
- 
+Â 
 int main()
 {
   int array[100], n, c, d, swap;
- 
+Â 
   printf("Enter number of elements\n");
   scanf("%d", &n);
- 
+Â 
   printf("Enter %d integers\n", n);
- 
+Â 
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
- 
+Â 
   for (c = 0 ; c < ( n - 1 ); c++)
   {
     for (d = 0 ; d < n - c - 1; d++)
@@ -26,11 +26,11 @@ int main()
       }
     }
   }
- 
+Â 
   printf("Sorted list in ascending order:\n");
- 
+Â 
   for ( c = 0 ; c < n ; c++ )
      printf("%d\n", array[c]);
- 
+Â 
   return 0;
 }
