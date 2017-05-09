@@ -1,6 +1,7 @@
 /* Bubble sort code in c programming language*/
  
 #include <stdio.h>
+#include <stdlib.h>
  
 int main()
 {
